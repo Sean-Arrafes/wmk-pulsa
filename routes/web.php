@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Testing
+
+Route::get('/risqi', function () {
+    return view('welcome');
+});
+
